@@ -9,13 +9,15 @@ const user = {
     [msym]:"mykey1"
 }
 
+console.log(user)
+
 //methods to access objects' elements
 console.log(user.nam)
 console.log(user["nam"])    //keys are nothing but strings, use quotes in square brackets
 console.log(user["nam"])   //since key is also string
 // console.log(user.full name)  //cant be accessed through dot method because declared as strings already
 console.log(user[msym])
-console.log(type)
+console.log(typeof msym)
 //therefore
 
 console.log(user["full name"])
