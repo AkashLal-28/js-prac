@@ -3,10 +3,10 @@
 const msym = Symbol("key1")
 
 const user = {
-    nam:"akash",
-    age:24,
-    "full name":"Akash Lal",
-    [msym]:"mykey1"
+    nam: "akash",
+    age: 24,
+    "full name": "Akash Lal",
+    [msym]: "mykey1"
 }
 
 console.log(user)
