@@ -41,6 +41,6 @@ console.log(addTwo(1,2))
                                         return
                                     }*/
 
-const a = (nm1,nm2) => (nm1*nm2)
-console.log(a(3,4))
+const multiply = (nm1,nm2) => (nm1*nm2)
+console.log(multiply(3,4))
 
